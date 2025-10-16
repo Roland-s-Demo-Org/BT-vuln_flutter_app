@@ -58,7 +58,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     var appState = context.watch<MyAppState>();
     var pair = appState.current;
-
+        print('pair: $pair');
     return Scaffold(
       body: Center(
         child: Column(
